@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis/css2?family=Nunito:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(121, 109, 87)
+}
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 10px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 5px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: ". content content content content .";
+}
+.content {
+    grid-area: content;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.learn-more {
+    width: 56px;
+    height: 24px;
+    border-radius: 0;
+    border-color: black;
+    padding: 10px;
+    background-color: transparent; 
+}
+.learn-more:hover {
+    transform: translateY(-150);
+    background-color: red;
+    border-color: red;
+}
