@@ -5,7 +5,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(121, 109, 87)
+    color: rgb(121, 109, 87);
+    font-size: 10px;
 }
 h1, h2 {
     font-family: 'Poppins', sans-serif;
@@ -31,8 +32,8 @@ h2 {
     text-align: center;
 }
 .learn-more {
-    width: 56px;
-    height: 24px;
+    width: 100px;
+    height: 40px;
     border-radius: 0;
     border-color: black;
     padding: 10px;
